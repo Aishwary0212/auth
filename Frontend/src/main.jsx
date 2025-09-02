@@ -11,13 +11,14 @@ import NewCard from './components/NewCard.jsx'
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <App />
-    {/* <BrowserRouter>
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/card" element={<NewCard />} />
       </Routes>
-    </BrowserRouter> */}
+    </BrowserRouter>
+
   </StrictMode>
 );
